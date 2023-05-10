@@ -1,5 +1,6 @@
 # My Website Project:
 [THIS IS STILL VERY MUCH A ROUGH DRAFT AND IT WILL PROBABLY CHANGE VERY SOON.]
+
 Paroxysm, a website/blog dedicated to education and science.
 
 ## Authentication:
@@ -20,8 +21,11 @@ Most of my javascript code will probably be related to user preferences and gett
 
 ## PREVIEW:
 <img width="525" alt="preview" src="https://github.com/mcd-cs/CS-Startup/assets/66216150/9318138d-f72f-4c24-a02b-2f4976fa207a">
+
 This is a very rough image because I need to get this assignment due before midnight, but this is kind of what I hope it will look like. A page where you can pick and choose widgets that you're interested in, and then customize them to your heart's content!
 
+
 OTHER PAGES IN THIS REPOSITORY:
+
 # startup
 [notes](https://github.com/SpaceL4M/startup/blob/7d3f123fb4610abd28c1056fcf60046c8ad17d01/notes.md)
