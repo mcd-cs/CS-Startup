@@ -1,31 +1,23 @@
 # My Website Project:
-[THIS IS STILL VERY MUCH A ROUGH DRAFT AND IT WILL PROBABLY CHANGE VERY SOON.]
-
-Paroxysm, a website/blog dedicated to education and science.
+Paroxysm, a browser-based text adventure.
 
 ## Authentication:
-Users will be able to log in and choose which APIs they want on their page, such as Nasa's Image of the Day, Youtube Statistics, etc. No algorithms, no internet discourse, just the website the way you want it!
+Users will be able to log in to return to their place in the game's story, meaning they can pick up the game on any device and keep their progress.
 
 ## Database
-The website will save user preferences based on their usernames and passwords so they can keep their own website theme.
+The website will save user progress based on username and password, as well as a recording of their decisions to see which choices are chosen most often.
 
 ## Websocket
-Paroxysm will pull from a bunch of APIs to generate the website's daily content. I'm hoping to use Nasa's APIs, as well as other APIs for things like the weather, calendar events, exact date and time, fun facts of the week, etc. It's going to be focused on finding the fun little tidbits of information that the internet usually forgets about, so I'll be on the lookout for useful APIs.
+Paroxysm will send real-time messages whenever a certain event happens to a user, so you can see whenever another player starts for the first time, restarts, dies, beats the game, or makes any other decision that doesn't spoil the story.
 
 ### HTML
-I want to make it easy to develop additional pieces of the website, so I think I'll use a template for each new API I introduce, then combine them based on user preference.
+The website will have a login screen, a game window, and an about page that are made in HTML.
 ### CSS
 I don't like how modern websites look, so I think I'll base this website's design on an older aesthetic like Windows 95 or Frutiger Aero. Something easy to put together but still stylized in it's own way.
+I'll also use CSS to give text animations and styles that I can play with during the game's story.
 ### JAVASCRIPT
-Most of my javascript code will probably be related to user preferences and getting information from different APIs, but I think that if I can get the main website structure figured out, I'll be able to implement things just fine.
+Javascript will be used to parse JSON files containing the game's story, display them in the website's game window, and activate different events based on user choice. Being able to parse JSON means that potentially, users will be able to make their own stories and upload them to the website!
 
 ## PREVIEW:
-<img width="525" alt="preview" src="https://github.com/mcd-cs/CS-Startup/assets/66216150/9318138d-f72f-4c24-a02b-2f4976fa207a">
-
-This is a very rough image because I need to get this assignment due before midnight, but this is kind of what I hope it will look like. A page where you can pick and choose widgets that you're interested in, and then customize them to your heart's content!
-
-
-OTHER PAGES IN THIS REPOSITORY:
-
-# startup
-[notes](https://github.com/SpaceL4M/startup/blob/7d3f123fb4610abd28c1056fcf60046c8ad17d01/notes.md)
+<img width="960" alt="image" src="https://github.com/mcd-cs/CS-Startup/assets/66216150/3d9dd6c1-fc21-40ed-9ad2-e155521d2e17">
+This is a very rough image that is subject to change, but it's the most basic layout I had in mind.
