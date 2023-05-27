@@ -20,4 +20,5 @@ Javascript will be used to parse JSON files containing the game's story, display
 
 ## PREVIEW:
 <img width="960" alt="image" src="https://github.com/mcd-cs/CS-Startup/assets/66216150/3d9dd6c1-fc21-40ed-9ad2-e155521d2e17">
+
 This is a very rough image that is subject to change, but it's the most basic layout I had in mind.
