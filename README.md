@@ -22,3 +22,28 @@ Javascript will be used to parse JSON files containing the game's story, display
 <img width="960" alt="image" src="https://github.com/mcd-cs/CS-Startup/assets/66216150/3d9dd6c1-fc21-40ed-9ad2-e155521d2e17">
 
 This is a very rough image that is subject to change, but it's the most basic layout I had in mind.
+---
+# UPDATES
+
+## HTML Deliverable:
+> **HTML Pages:** Created HTML pages for the login, the game page, and an about page. <br>
+> **Links:** Every page has a header that has links to all 3 pages. <br>
+> **Images:** I successfully implemented an image into the About page. <br>
+> **Login:** The login page is there, it doesn't do anything but it will in the future! <br>
+> **Database:** This will be implemented on the game page. <br>
+> **Websocket:** This will be implemented on the game page. <br>
+
+## CSS Deliverable:
+> **Header, footer, and main content body:** Added those, made them different colors and styles <br>
+> **Navigation elements:** Straightened out the navigation part of the header so it's next to the main logo <br>
+> **Responsive to window resizing:** The CSS lets it adapt to different screen sizes <br>
+> **Application elements:** Focused on making the elements look nice with a coordinated color palette <br>
+> **Application text content:** Made sure the text is visible on all pages <br>
+> **Application images:** Added a background image (credit: [Makkon](https://www.slipseer.com/index.php?resources/makkon-textures.28/)) <br>
+
+## Javascript Deliverable:
+> **Simple game layout:** Added a bare-bones way for the game page to update with user choice <br>
+> **Simon deployed:** Added the Simon game from the CS Github repo <br>
+> **Websocket and Database:** To be added. The Javascript will be able to create save files for users based on logs of their in-game decisions. These logs will also trigger websocket to broadcast their statistics! <br>
+
+**MORE TO BE ADDED SOON...**
