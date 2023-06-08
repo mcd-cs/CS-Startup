@@ -46,4 +46,7 @@ This is a very rough image that is subject to change, but it's the most basic la
 > **Simon deployed:** Added the Simon game from the CS Github repo <br>
 > **Websocket and Database:** To be added. The Javascript will be able to create save files for users based on logs of their in-game decisions. These logs will also trigger websocket to broadcast their statistics! <br>
 
+## 6/8/2023:
+> **Project Roadmap:** I've fallen behind quite a bit, so I've updated the login page with a list of stuff I need to do.
+
 **MORE TO BE ADDED SOON...**
