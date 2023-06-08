@@ -1,0 +1,31 @@
+// Every section of the story is called a scene.
+// There are different types of scenes with different functions.
+
+scene_choice targetname = "scene_name" {
+	text = "Hello World!"// The text variable is a scene's main text. I want it to be markdown but it might just end up being plain text.
+	
+	-- // OPTIONAL VARIABLES
+	
+	announcement = "[USER] has started the game!"// Uses websocket (?) to announce events to the server. Also keeps a log of announcements.
+	img = "media/img/helloworld.png" // This will show an image in the game's textbox.
+	
+	audio = "media/audio/song.mid" // Plays audio as you read the text. Smooth transitions will be super important for this to work.
+	effect = "glow" // Text effects using CSS. I will not implement this unless I have two thousand years of free time.
+	--
+	
+	target1 = "scene 01", message = "Choice 1" // Pressing the button for choice 1 activates the function that is named here. The button's text is the message.
+	target2 = "scene 02" // If there is no message, the button's text will be the given name of the target. This is not good.
+	target3 = null // If no target is given or the target is null, the button will be hidden. An error will be returned if no buttons have targets.
+	target4 = ""
+	
+	// I will also need to implement if, then, and else functions so that the game can dynamically change when you backtrack.
+	// Either that or a sickening amount of very similar branching paths
+	
+}
+
+scene_paragraph targetname = "scene 01"{
+	text = "This is the first choice. It's a paragraph of text." // Just a wall of text pretty much
+	new save item = "my item" // Save file variables work more like an inventory than an actual save.
+	delete save item "not my item" // If you don't have this, it will skip this line of code
+	target = "target2"
+}

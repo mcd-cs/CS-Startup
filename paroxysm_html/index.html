@@ -31,19 +31,54 @@
       <form method="get" action="game_page.html">
         <label for="name">Username</label>
         <input type="text" id="name" placeholder="Your name here" />
-        <label for="password">Password</label>
-        <input type="text" id="password" placeholder="Your password here" />
         <button type="submit">Login</button>
       </form>
-    </section>
+      <section>
+      <h1>TODO:</h1>
+        <form>
+          <input type="checkbox" name="check1">
+          <label for="check1">Upgrade game JavaScript to React</label><br>
+          <input type="checkbox" name="check2">
+          <label for="check2">Get JavaScript to parse premade JSON files</label><br>
+          <input type="checkbox" name="check3">
+          <label for="check3">Repair Simon service</label><br>
+          <input type="checkbox" name="check4">
+          <label for="check4">Connect to Database</label><br>
+          <input type="checkbox" name="check5">
+          <label for="check5">Set up Service, Login, and Websocket</label><br>
+          <input type="checkbox" name="check6">
+          <label for="check6">Write Text Adventure Game</label><br>
+        </form>
+        <br>
+        <p>DUE DATE: 6/15/2023</p>
+        <p>CURRENT DATE: 6/8/2023</p>
+        <h1>TIME LEFT TO COMPLETE PROJECT: <a id="timer"></a> DAYS</h1>
+        
+        <script>
+          today=new Date();
+          var time_left;
+          var due_date=new Date(today.getFullYear(), 5, 15);
+          if (today.getMonth()==5 && today.getDate()>15) 
+          {
+          time_left = 0;
+          due_date.setFullYear(due_date.getFullYear()+1); 
+          }  
+          var one_day=1000*60*60*24;
+          time_left = (due_date.getTime()-today.getTime())/(one_day);
+          document.getElementById("timer").innerText = Math.ceil(time_left);
+          document.getElementById("timer").style.color = "crimson";
+        </script>
+
+        <p>CURRENT STATUS: Approaching Heck</p>
+      </section>
+      </section>
     </main>
 
-    <footer>
-      <hr />
+    <section class="footer">
       <span class="text-reset">Made by McSandwich</span>
-      <br />
+      <br>
       <a href="https://github.com/mcd-cs/CS-Startup">GitHub</a>
-    </footer>
+    </section>
 
 
   </body>

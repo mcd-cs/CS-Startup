@@ -23,7 +23,11 @@
     padding: 1em;
     margin: 1em 2;
     border-radius: 5px;
+    outline-style:solid;
+    outline-color:#a8c49c;
+    outline-width: 5px;
   }
+
   header h1{
     align-self: stretch;
     color: #eed2da;
@@ -45,12 +49,16 @@
     background-color: #ad9458;
     outline-style: solid;
     padding: 1em;
-    margin: 1em 0;
+    margin: 1rem 5rem;
     border-radius: 5px;
   }
   
   .spot{
     padding: 1em;
+  }
+
+  .updates{
+    color: red;
   }
 
   .game_window{
@@ -101,12 +109,22 @@
     padding: 1em;
   }
   
-  footer {
+  .footer {
+    background-color: gray;
+    margin: 0;
+    padding: 0px;
+    border: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
     font-style: italic;
-    font-size: 0.9em;
-    text-align: end;
-    padding: 0 1em;
+    text-align: center;
+    background-color: gray;
+    color: white;
   }
+
+
   
   .fly-in {
     animation: fly-from-left 1s ease-out;
