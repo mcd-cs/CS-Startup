@@ -49,4 +49,8 @@ This is a very rough image that is subject to change, but it's the most basic la
 ## 6/8/2023:
 > **Project Roadmap:** I've fallen behind quite a bit, so I've updated the login page with a list of stuff I need to do.
 
+## Service Deliverable:
+> **Added HTTP Service:** To be honest, this is mostly copied from Simon, but it's nice to finally have it done. <br>
+> **Simon deployed:** Finally fixed Simon by using node.js and npm <br>
+
 **MORE TO BE ADDED SOON...**
