@@ -1,0 +1,73 @@
+{
+    // PSEUDOCODE
+
+    Trigger_Choice object "startup" {
+
+
+        Message = 
+        "Lorem ipsum dolor sit amet, 
+        consectetur adipiscing elit. Proin 
+        porttitor justo mauris, sed vestibulum 
+        tortor volutpat sit amet. Mauris maximus 
+        tellus magna, a molestie odio luctus et. 
+        Vivamus dapibus interdum turpis non 
+        ullamcorper. Aenean scelerisque hendrerit 
+        purus, quis scelerisque metus scelerisque 
+        a. Donec blandit diam vel tortor auctor 
+        tristique. Mauris dictum bibendum purus, 
+        eu convallis ante lacinia non. 
+        Curabitur a orci consequat, dapibus arcu 
+        ac, semper arcu. Nulla facilisi. Praesent 
+        ornare sem blandit eros pharetra, eu 
+        sollicitudin quam consectetur. Maecenas 
+        sit amet leo id velit pretium malesuada 
+        in ac magna. Nullam quis neque placerat, 
+        lacinia sapien in, facilisis ante. Duis 
+        porta lacus nec rutrum scelerisque. 
+        Vivamus laoreet vestibulum magna, quis 
+        lobortis ipsum tincidunt blandit. Sed 
+        dolor lacus, faucibus sed lacinia vitae, 
+        ullamcorper id mauris. Praesent elementum 
+        sit amet arcu ac aliquet.
+        
+        <PAUSE FOR INPUT>
+        
+        Quisque hendrerit ligula purus, in fringilla 
+        erat lacinia sed. Duis eu posuere nulla, in 
+        aliquam augue. Aenean sagittis congue nisi, 
+        a placerat massa rutrum at. Quisque eu 
+        vehicula libero, vel aliquam nunc. Mauris ac 
+        diam vitae lectus fringilla mattis. Integer 
+        tellus neque, hendrerit ut dapibus sed, 
+        egestas et lorem. Ut porttitor blandit nulla, 
+        sit amet scelerisque ex ullamcorper id. 
+        Praesent id mauris sit amet velit cursus 
+        ultricies. Suspendisse in posuere ligula, 
+        pulvinar pharetra orci. Suspendisse fermentum 
+        imperdiet ultrices. Donec nec nibh euismod 
+        dolor porttitor molestie. Cras id dictum nisl. 
+        Nulla euismod massa a dignissim feugiat. 
+        Praesent pretium in nisi ac vulputate."
+
+    Choice 1 =
+    Choice 2 =
+    Choice 3 =
+    Choice 4 =
+
+    }
+
+}
+
+Object Trigger_Choice{
+    Message = "" // This should be in markdown and have a special character for an input pause
+
+    Print_Speed = 0.1
+
+    Effect = None
+    Background Image = Default
+
+    Choice 1 = NULL
+    Choice 2 = NULL
+    Choice 3 = NULL
+    Choice 4 = NULL
+}
